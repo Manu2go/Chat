@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">chat</string>
+
+    <string-array name="popup_items_text">
+        <item>Gallery</item>
+        <item>Audio</item>
+        <item>Video</item>
+    </string-array>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:background="@color/bright_foreground_disabled_material_dark">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/chat_img"
+        android:adjustViewBounds="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/video"
+
+         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/grp_nam"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="8dp"
+        android:layout_toRightOf="@+id/chat_img"
+       android:paddingBottom="4dp"
+
+       />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/lst_msg"
+        android:paddingLeft="8dp"
+        android:layout_toRightOf="@+id/chat_img"
+
+        android:layout_below="@+id/grp_nam"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/unread_msg_count"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:visibility="invisible"
+        android:background="@drawable/circle"
+        android:textColor="@color/background_floating_material_light"
+        android:layout_below="@+id/lst_msg"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:singleLine="false"
+        android:gravity="center"
+        android:textStyle="bold" />
+</RelativeLayout>

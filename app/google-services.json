@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "423662969397",
+    "firebase_url": "https://chat-764b5.firebaseio.com",
+    "project_id": "chat-764b5",
+    "storage_bucket": "chat-764b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423662969397:android:e2d001e2f57b8bfb",
+        "android_client_info": {
+          "package_name": "chat.manan.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423662969397-p9gosofiiot0qdgofntrpd9h2tjec6f9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhoOeEGvK5jKdgjW_KOxHtsOIlbWVvbFo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
