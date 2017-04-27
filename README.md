@@ -9,14 +9,21 @@ The activities in the app :-
 This activity is used for user login and is the first activity when we start the app.
 A user can login using his  name and email-id. On successful login he is directed to Chats.class.
 <div>
-<img src="/Screenshots/5.png" alt="Drawing" height="400" width="250" ><br/>
+<img src="/Screenshots/5.png" alt="Drawing" height="400" width="250" >
 </div>
+
 ## 2. Main2Activity.class
 This activity is used for user registration. A user will register using his name, email-id and a profile-pic(optional). On successful registration he is directed to Chats.class.
-![alt text](/Screenshots/1.png "MainActivity.class")<br />
+<div>
+<img src="/Screenshots/1.png" alt="Drawing" height="400" width="250" >
+</div>
+
 ## 3. Chats.class
 This activity displays a list of all the group chats having one of the members as  the user who logged in.
-![alt text](/Screenshots/9.png "MainActivity.class")
+<div>
+<img src="/Screenshots/9.png" alt="Drawing" height="400" width="250" >
+</div>
+
 ## 4. Groupname.class
 This activity will appear after you click the 'Create Group' option in the overflow menu in Chats.class. Here, you mention the name and group-pic(optional) of the group your are creating. After clicking on 'Proceed' you are directed to CreateGroup.class .
 ![alt text](/Screenshots/8.png "MainActivity.class")
