@@ -8,6 +8,7 @@ The activities in the app :-
 ## 1. MainActivity.class
 This activity is used for user login and is the first activity when we start the app.
 A user can login using his  name and email-id. On successful login he is directed to Chats.class.
+
 ![alt text](/Screenshots/5.png "MainActivity.class" =250x400)
 
 ## 2. Main2Activity.class
