@@ -6,18 +6,13 @@ An android app named 'chat' for group chatting. Using the app you can chat with 
 The activities in the app :-
 
 ## 1. MainActivity.class
-``
 This activity is used for user login and is the first activity when we start the app.
 A user can login using his  name and email-id. On successful login he is directed to Chats.class.
-``
 
 ## 2. Main2Activity.class
-''
 This activity is used for user registration. A user will register using his name, email-id and a profile-pic(optional). On successful registration he is directed to Chats.class.
-''
 
 ## 3. Chats.class
-
 This activity displays a list of all the group chats having one of the members as  the user who logged in.
 
 ## 4. Groupname.class
