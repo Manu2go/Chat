@@ -9,7 +9,7 @@ The activities in the app :-
 This activity is used for user login and is the first activity when we start the app.
 A user can login using his  name and email-id. On successful login he is directed to Chats.class.
 <div>
-<img src="/Screenshots/5.png" alt="Drawing"  height="250" width="130" >
+<img src="/Screenshots/5.png" alt="Drawing"  height="300" width="180" >
 </div>
 
 ## 2. Main2Activity.class
