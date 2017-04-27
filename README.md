@@ -4,17 +4,17 @@ A group chat based android app
 An android app named 'chat' for group chatting. Using the app you can chat with anybody who is already registered in the app. The chat box can send images,videos as well as audios.Moreover, it can show the number of unread messages in one login session.
 
 The activities in the app :-
-
+<div>
 ## 1. MainActivity.class
 This activity is used for user login and is the first activity when we start the app.
 A user can login using his  name and email-id. On successful login he is directed to Chats.class.
-<div>
+
 <img src="/Screenshots/5.png" alt="Drawing"  height="300" width="180" >
 </div>
-
+<div>
 ## 2. Main2Activity.class
 This activity is used for user registration. A user will register using his name, email-id and a profile-pic(optional). On successful registration he is directed to Chats.class.
-<div>
+
 <img src="/Screenshots/1.png" alt="Drawing"  height="300" width="180" >
 </div>
 
@@ -50,6 +50,7 @@ This activity will be visible after you click on the toolbar in ChatRoomActivity
 <img src="/Screenshots/14.png" alt="Drawing"  height="300" width="180" hspace="20">
 <img src="/Screenshots/14.png" alt="Drawing"  height="300" width="180" hspace="20">
 </div>
+
 ## 8. chk.class
 This activity is used to view a profile image on full screen . Whenever you click on a image icon  in any activity (except group_inf.class) , chk.class gets started displaying the selected image on full screen.
 <div>
