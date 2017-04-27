@@ -13,7 +13,7 @@ A user can login using his  name and email-id. On successful login he is directe
 
 ## 2. Main2Activity.class
 This activity is used for user registration. A user will register using his name, email-id and a profile-pic(optional). On successful registration he is directed to Chats.class.
-![alt text](/Screenshots/1.png "MainActivity.class")
+![alt text](/Screenshots/1.png "MainActivity.class")<br />
 ## 3. Chats.class
 This activity displays a list of all the group chats having one of the members as  the user who logged in.
 ![alt text](/Screenshots/9.png "MainActivity.class")
