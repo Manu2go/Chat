@@ -58,4 +58,19 @@ This activity is used to view a profile image on full screen . Whenever you clic
 </div>
 
 <br/><br/>
-> Moreover, we have used Firebase cloud messgaing for getting chat notifications.
+### Moreover, Firebase cloud messgaing is used for getting chat notifications.
+
+## Note:- 
+Sometimes, it may happen that a user might not be able to login or some other operations (requiring server calls) may result with an unsuccessful status, this might be possible due to poor functioning of servers.
+
+Therefore, if a user encounters such problems frequently then he should follow the given steps:-
+
+1. create a local server or choose any remote server (to store php files and to create a MySQL database)
+2. download the zip file(containing all php files) from the link:-
+  https://drive.google.com/open?id=0B8i_i9ZwP1yIVXFVOTYzRlRsZzg
+  and put all the contents of the downloaded zip file in the htdocs(=or public_html) folder on his server
+3. download the .sql file from the link:- https://drive.google.com/open?id=0B8i_i9ZwP1yIZjQyU0d2d1hxamc
+   and create a database from that file
+4. add the details of his newly created database in include-->dbconnect.php file present inside the htdocs(=or public_html) folder on the new server
+5. and then go to app->src->main->java->chat-->manan->chat-->helper.java 
+	and change the URLs accordingly
