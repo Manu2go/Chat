@@ -1,7 +1,7 @@
-# chat
+# Chat
 A group chat based android app
 
-An android app named 'chat' for group chatting. Using the app you can chat with anybody who is already registered in the app. The chat box can send images,videos as well as audios.Moreover, it can show the number of unread messages in one login session.
+An android app named 'Chat' for group chatting. Using the app you can chat with anybody who is already registered in the app. The chat box can send images,videos as well as audios.Moreover, it can show the number of unread messages in one login session.
 
 The activities in the app :-
 
